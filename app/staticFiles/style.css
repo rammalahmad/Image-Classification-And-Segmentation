@@ -1,0 +1,79 @@
+h1 {
+    color : rgb(7, 0, 0);
+    text-shadow: 5px 4px 0px #4a9bff3b;
+}
+
+body {
+    font-family: Verdana;
+    background: url(bg.png) no-repeat fixed top/cover;
+    min-height: 100vh;
+    margin: 0px;
+  }
+
+main {
+    text-align: center;
+    padding-right: 20em;
+    padding-left: 20em;
+}
+
+.entry {
+    position: absolute;
+    text-align: center;
+    /* centrer verticalement en absolute */
+    top: 25%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.results {
+    text-align: center;
+}
+
+.grid-container {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "i1 i2";
+  }
+  
+#img {
+    text-align : center;
+    grid-area : "i1";
+    width : 500px;
+    justify-content: center;
+    align-content: center;
+}
+
+#aaaa {
+    position: absolute;
+    right : 56%;
+    top : 46.3%;
+    transform: translateY(-50%);
+}
+#mask {
+    grid-area : "i2";
+    text-align : center;
+}
+
+#text {
+    text-align : center;
+    font-size : 1rem;
+    color : rgb(32, 32, 26);
+    border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    border: 13px solid #ff6550;
+    background-color: rgba(240, 255, 255, 0.475);
+}
+
+#inputfile {
+    cursor: pointer;
+}
+
+#inputsubmit {
+    cursor: pointer;
+}

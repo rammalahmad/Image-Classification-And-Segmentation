@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="results">
+    <h2>Display Results</h2>
+    <div class="grid-container">
+        <div id="img">
+            <img id="aaaa" src= "{{img_path}}" width="300" height="310">
+        </div>
+        <div id="mask">
+            <img src= "{{mask_path}}" width="500" height="400">
+        </div>
+    </div>
+    <div id="text">
+        <p> The label is {{label}}</p>
+    </div>
+    
+  </div>
+  <form>
+    <input type="button" value="Go back!" onclick="history.back()">
+  </form>
+
+{% endblock %}

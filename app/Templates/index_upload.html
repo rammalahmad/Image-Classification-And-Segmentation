@@ -1,0 +1,48 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+
+
+<br/>
+<br/>
+<br/>
+<h2>Search for a location</h2>
+<input type="search" id="site-search" name="q">
+<button>Search</button>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<h2>Upload Image</h2>
+<form method="POST" enctype="multipart/form-data" action="/">
+    <input id=inputfile type="file" id="myFile" name="uploaded-file" accept=".png">
+    <input id=inputfile type="submit" value="Submit">
+</form>
+<br>
+
+
+
+{% endblock %}
+
+<!-- {% if color == "blue" %}
+<p style="color:blue;">Choose image file to upload</p>
+<form action="/show_data" target="_blank">
+      <input type="submit" value="Show Image" />
+  </form>
+{% endif %}
+
+{% if color == "green" %}
+<p style="color:green;">File uploaded successfully</p>
+<form action="/label" target="_blank">
+      <input type="submit" value="Display Image" />
+  </form>
+{%endif%} -->
