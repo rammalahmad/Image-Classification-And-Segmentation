@@ -4,8 +4,7 @@
 ---
 
 ## Overview  
-This project showcases an **image classification and segmentation pipeline** for detecting wells in desert regions. Using **pretrained ResNet** for classification and **UNet** for segmentation, the models were trained on labeled data provided by QuantumBlack. The results were deployed in a **Flask-based web app**, developed within the two-day hackathon. The project secured **2nd place**, narrowly missing first.
-
+This project showcases an **image classification and segmentation pipeline** for detecting wells in desert regions. Using **pretrained ResNet** for classification and **UNet** for segmentation, the models were trained on labeled data provided by QuantumBlack. The results were deployed in a **Flask-based web app**, developed within the two-day hackathon. The project secured **2nd place**.
 ---
 
 ## Highlights  
